@@ -1,0 +1,64 @@
+.text-gradient {
+    font-size: 4em;
+    font-weight: bold;
+    text-align: center;
+    color: darkblue;
+  }
+  @supports (--css: variables) {
+    .text-gradient {
+      background: linear-gradient(to right, pink, darkorchid, coral 70%);
+      color: transparent;
+      -webkit-background-clip: text;
+              background-clip: text;
+    }
+  }
+  
+img{
+    width:100%;
+    height:auto;
+    
+}
+.hide{
+    display:none;
+}
+
+h2{
+    display:none;
+}
+
+.dis{
+    display:flex;
+    margin-top: 500px;
+    justify-content: center;
+    align-content: center;
+}
+#messg{
+    font-size: 4em;
+    font-weight: bold;
+    text-align: center;
+    color: darkblue;
+  }
+@supports (--css: variables) {
+    #messg {
+      background: linear-gradient(to right, pink, darkorchid, coral 70%);
+      color: transparent;
+      -webkit-background-clip: text;
+              background-clip: text;
+    }
+  }
+
+
+  button{
+   margin-left: 450px;
+   width:150px;
+   height:50px;
+
+  }
+
+  button:hover{
+    background-color: coral;
+    color:white;
+    font-weight: bold;
+  }
+
+  
